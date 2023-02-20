@@ -1,0 +1,8 @@
+R1>en
+R1#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#interface g0/0
+R1(config-if)#ip helper-address 192.168.60.253
+R1(config-if)#no shutdown
+R1(config-if)#end
+R1#

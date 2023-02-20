@@ -1,0 +1,464 @@
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::2
+   IPv6 Address....................: 2001:DB8:ACAD::2
+   IPv4 Address....................: 172.168.1.3
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: FE80::1
+                                     172.16.1.1
+
+Bluetooth Connection:
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: ::
+   IPv6 Address....................: ::
+   IPv4 Address....................: 0.0.0.0
+   Subnet Mask.....................: 0.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.1
+
+Pinging 172.16.1.1 with 32 bytes of data:
+
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.1.1: bytes=32 time=3ms TTL=255
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+
+Ping statistics for 172.16.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 3ms, Average = 0ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 209.165.201.2
+
+Pinging 209.165.201.2 with 32 bytes of data:
+
+Request timed out.
+Reply from 209.165.201.2: bytes=32 time=11ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=5ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=7ms TTL=126
+
+Ping statistics for 209.165.201.2:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 5ms, Maximum = 11ms, Average = 7ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.4
+
+Pinging 172.16.1.4 with 32 bytes of data:
+
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=128
+
+Ping statistics for 172.16.1.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.3
+
+Pinging 172.16.2.3 with 32 bytes of data:
+
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+
+Ping statistics for 172.16.2.3:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.4
+
+Pinging 172.16.2.4 with 32 bytes of data:
+
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+
+Ping statistics for 172.16.2.4:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::2
+   IPv6 Address....................: 2001:DB8:ACAD::3
+   IPv4 Address....................: 172.16.1.4
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: FE80::1
+                                     172.16.1.11
+
+Bluetooth Connection:
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: ::
+   IPv6 Address....................: ::
+   IPv4 Address....................: 0.0.0.0
+   Subnet Mask.....................: 0.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+C:\>
+
+--------------------------------------------------------------
+
+
+
+C:\>ping 172.16.1.1
+
+Pinging 172.16.1.1 with 32 bytes of data:
+
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.1.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.1.1: bytes=32 time=1ms TTL=255
+
+Ping statistics for 172.16.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 209.165.201.2
+
+Pinging 209.165.201.2 with 32 bytes of data:
+
+Reply from 209.165.201.2: bytes=32 time=9ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=7ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=6ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=4ms TTL=126
+
+Ping statistics for 209.165.201.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 9ms, Average = 6ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.3
+
+Pinging 172.16.1.3 with 32 bytes of data:
+
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=128
+
+Ping statistics for 172.16.1.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.3
+
+Pinging 172.16.2.3 with 32 bytes of data:
+
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+
+Ping statistics for 172.16.2.3:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.4
+
+Pinging 172.16.2.4 with 32 bytes of data:
+
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+Reply from 209.165.200.225: Destination host unreachable.
+
+Ping statistics for 172.16.2.4:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::2
+   IPv6 Address....................: 2001:DB8:ACAD:1::2
+   IPv4 Address....................: 172.16.2.3
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: FE80::1
+                                     172.16.2.1
+
+Bluetooth Connection:
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: ::
+   IPv6 Address....................: ::
+   IPv4 Address....................: 0.0.0.0
+   Subnet Mask.....................: 0.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+C:\>
+--------------------------------------------------------------
+
+C:\>ping 209.165.201.2
+
+Pinging 209.165.201.2 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 209.165.201.2:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.1
+
+Pinging 172.16.2.1 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.2.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.4
+
+Pinging 172.16.2.4 with 32 bytes of data:
+
+Reply from 172.16.2.4: bytes=32 time<1ms TTL=128
+Reply from 172.16.2.4: bytes=32 time=1ms TTL=128
+Reply from 172.16.2.4: bytes=32 time<1ms TTL=128
+Reply from 172.16.2.4: bytes=32 time=1ms TTL=128
+
+Ping statistics for 172.16.2.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>
+--------------------------------------------------------------
+C:\>ping 172.16.1.3
+
+Pinging 172.16.1.3 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.1.3:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.4
+
+Pinging 172.16.1.4 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.1.4:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\>
+
+--------------------------------------------------------------
+
+User Access Verification
+
+Username: Admin01
+Password: 
+
+R1#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+GigabitEthernet0/0     172.16.1.1      YES manual up                    up 
+GigabitEthernet0/1     172.16.3.1      YES manual up                    up 
+Serial0/0/0            209.165.200.226 YES manual up                    up 
+Serial0/0/1            unassigned      YES unset  down                  down 
+Vlan1                  unassigned      YES unset  administratively down down
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#interface g0/1
+R1(config-if)#ip address 172.16.2.1 255.255.255.0
+R1(config-if)#no shutdown
+R1(config-if)#end
+R1#
+%SYS-5-CONFIG_I: Configured from console by console
+
+R1#exit
+
+--------------------------------------------------------------
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::4
+   IPv6 Address....................: 2001:DB8:ACAD:1::4
+   IPv4 Address....................: 172.16.2.4
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: FE80::1
+                                     172.16.2.1
+
+Bluetooth Connection:
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: ::
+   IPv6 Address....................: ::
+   IPv4 Address....................: 0.0.0.0
+   Subnet Mask.....................: 0.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 209.165.201.2
+
+Pinging 209.165.201.2 with 32 bytes of data:
+
+Reply from 209.165.201.2: bytes=32 time=1ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=6ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=10ms TTL=126
+Reply from 209.165.201.2: bytes=32 time=1ms TTL=126
+
+Ping statistics for 209.165.201.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 10ms, Average = 4ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.1
+
+Pinging 172.16.2.1 with 32 bytes of data:
+
+Reply from 172.16.2.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.2.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.2.1: bytes=32 time<1ms TTL=255
+Reply from 172.16.2.1: bytes=32 time<1ms TTL=255
+
+Ping statistics for 172.16.2.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>
+--------------------------------------------------------------
+
+C:\>ping 172.16.2.3
+
+Pinging 172.16.2.3 with 32 bytes of data:
+
+Reply from 172.16.2.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.2.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.2.3: bytes=32 time<1ms TTL=128
+Reply from 172.16.2.3: bytes=32 time<1ms TTL=128
+
+Ping statistics for 172.16.2.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\>
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.3
+
+Pinging 172.16.1.3 with 32 bytes of data:
+
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=127
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=127
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=127
+Reply from 172.16.1.3: bytes=32 time<1ms TTL=127
+
+Ping statistics for 172.16.1.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+--------------------------------------------------------------
+
+C:\>ping 172.16.1.4
+
+Pinging 172.16.1.4 with 32 bytes of data:
+
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=127
+Reply from 172.16.1.4: bytes=32 time=4ms TTL=127
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=127
+Reply from 172.16.1.4: bytes=32 time<1ms TTL=127
+
+Ping statistics for 172.16.1.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 4ms, Average = 1ms
+
+C:\>
+
+--------------------------------------------------------------
